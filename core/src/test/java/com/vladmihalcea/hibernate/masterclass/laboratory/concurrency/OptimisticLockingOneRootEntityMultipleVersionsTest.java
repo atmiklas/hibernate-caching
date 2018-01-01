@@ -1,6 +1,7 @@
 package com.vladmihalcea.hibernate.masterclass.laboratory.concurrency;
 
 import com.vladmihalcea.hibernate.masterclass.laboratory.util.AbstractTest;
+import com.vladmihalcea.hibernate.masterclass.laboratory.util.VoidCallable;
 import org.hamcrest.core.IsInstanceOf;
 import org.hibernate.StaleObjectStateException;
 import org.junit.Before;

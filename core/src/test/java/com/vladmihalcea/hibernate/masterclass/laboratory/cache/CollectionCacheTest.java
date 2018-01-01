@@ -3,21 +3,16 @@ package com.vladmihalcea.hibernate.masterclass.laboratory.cache;
 import com.vladmihalcea.hibernate.masterclass.laboratory.util.AbstractTest;
 import org.hibernate.ObjectNotFoundException;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
-import org.hibernate.jdbc.Work;
 import org.junit.Before;
 import org.junit.Test;
 
 import javax.persistence.*;
-import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 
 /**

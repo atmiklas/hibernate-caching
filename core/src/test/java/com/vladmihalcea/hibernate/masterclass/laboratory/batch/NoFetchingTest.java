@@ -1,7 +1,5 @@
 package com.vladmihalcea.hibernate.masterclass.laboratory.batch;
 
-import com.vladmihalcea.hibernate.masterclass.laboratory.util.AbstractOracleXEIntegrationTest;
-import com.vladmihalcea.hibernate.masterclass.laboratory.util.AbstractPostgreSQLIntegrationTest;
 import com.vladmihalcea.hibernate.masterclass.laboratory.util.AbstractTest;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.dialect.Dialect;

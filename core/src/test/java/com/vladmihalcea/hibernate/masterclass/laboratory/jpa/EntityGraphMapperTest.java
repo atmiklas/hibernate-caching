@@ -1,6 +1,7 @@
 package com.vladmihalcea.hibernate.masterclass.laboratory.jpa;
 
 import com.vladmihalcea.hibernate.masterclass.laboratory.util.AbstractTest;
+import com.vladmihalcea.hibernate.masterclass.laboratory.util.DataAccessException;
 import com.vladmihalcea.hibernate.masterclass.laboratory.util.providers.BlogEntityProvider;
 import org.junit.Test;
 
